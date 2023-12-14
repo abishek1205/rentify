@@ -1,0 +1,39 @@
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --black: rgb(10, 10, 10);
+  --black-fonts-headings: rgba(45, 46, 46, 1);
+  --light-grey: rgba(187, 200, 212, 1);
+  --light-grey-input-fiels-forms: rgba(246, 246, 246, 1);
+  --yellow: #f8d254;
+  --white-background: rgba(255, 255, 255, 1);
+  --text-font-weight: 400;
+  --text-font-size: 16px;
+  --text-letter-spacing: 0px;
+  --text-line-height: 22px;
+  --text-font-style: normal;
+  --text-b-font-weight: 600;
+  --text-b-font-size: 16px;
+  --text-b-letter-spacing: 0px;
+  --text-b-line-height: normal;
+  --text-b-font-style: normal;
+  --text-font-family: "Inter-Regular", Helvetica;
+  --text-b-font-family: "Inter-SemiBold", Helvetica;
+
+  --sm:576px;
+  --md:768px;
+  --lg:992px;
+  --xl:1200px;
+  --xxl:1400px;
+  
+
+}
+
+
+body,html{
+  overflow-x:hidden;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--white-background);
+}
+  

@@ -1,0 +1,23 @@
+.main{
+    height: 100vh;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.text{
+    margin:40px 20px 10px  ;
+    color: #eff4f8;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: lowercase;
+    
+   
+}
+.sub-text{
+    color: (207, 200, 191);
+    font-size: 1em;
+    font-weight: 400;
+}
