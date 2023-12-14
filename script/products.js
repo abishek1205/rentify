@@ -9,7 +9,7 @@ const products=[
     {
         id:"car2",
         name:"Porsche Cayenne GTS 2022",
-        image:"src/images/porsche.png",
+        image:"src/images/car.png",
         price:5000,
 
     },
