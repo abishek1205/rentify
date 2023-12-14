@@ -16,7 +16,7 @@ const products=[
     {
         id:"car3",
         name:"MW X7 M50i 2022",
-        image:"src/images/MW.png",
+        image:"src/images/car.png",
         price:5000,
 
     },
