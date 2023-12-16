@@ -1,0 +1,79 @@
+body{
+    font-family: 'Figtree', sans-serif;
+    color:rgb(255, 255, 255);
+    background-color: rgb(12, 140, 190);
+}
+.about-order{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.quantity{
+ font-size: 20px;   
+}
+.quantity button{
+    height: 30px;
+   
+}
+.delete{
+    font-size: 20px;
+}
+.star-ratings{
+    width: 100px;
+}
+.review{
+    font-size: 1em;
+    font-weight:500;
+    margin-top: 5px;
+    
+}
+.name{
+   
+    font-family: 'Figtree', sans-serif;
+    font-size: 1.5em;
+}
+.price{
+    font-size: 1.5em;
+    font-family: 'Figtree', sans-serif;
+
+}
+.date{
+    font-size: 1.5em;
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    gap:10px;
+}
+.date h2{
+    font-size: 1em;
+}
+.date input{
+    height: 30px;
+    /* margin-top: 5px; */
+}
+.product-row{
+ border: 2px solid rgb(0, 0, 0);
+ border-radius: 10px;
+ color: black;
+ background-color: white;
+}
+.buttons{
+    display: flex;
+    gap:50px 
+   
+}
+
+@media(min-width:800px){
+    .name{
+       margin-top: 60px;
+    } 
+}
+   
+@media(max-width:600px){
+   .product-image{
+    width: 90%;
+   }
+
+}
+
+
+
