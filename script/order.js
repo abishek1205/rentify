@@ -14,7 +14,8 @@ order.forEach((item)=> {
 
     })
     orderHTML+=`
-    <div class="col-lg-6 col-md-12 car-${matchingItem.id} ">
+    <div class="row row-car  car-${matchingItem.id} ">
+    <div class="col-lg-6 col-md-12">
     <img  src=${matchingItem.image} class="mt-3 product-image" alt="">
     <div class="container">
         <div class="row">
@@ -31,7 +32,7 @@ order.forEach((item)=> {
         </div>
     </div>
 </div>
-<div class="col-lg-6 col-md-12  car-${matchingItem.id}">
+<div class="col-lg-6 col-md-12  ">
     <h2 class="name lg-mt-5">Name:<span class="text-primary">${matchingItem.name}</span></h2>
     <h2 class="price">price: <span class="price-span " ></span>rs ${matchingItem.price}</h2>
     <div class="date">
@@ -51,6 +52,7 @@ order.forEach((item)=> {
     <button class="btn btn-outline-danger w-25 js-delete-button" data-product-id=${matchingItem.id} >Delete</button>
     </div>
 </div>
+</div>
 
 `
 
@@ -69,3 +71,4 @@ document.querySelectorAll(".js-delete-button").forEach((button)=>{
         
     })
 })
+

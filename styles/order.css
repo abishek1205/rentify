@@ -1,7 +1,6 @@
 body{
     font-family: 'Figtree', sans-serif;
-    color:rgb(255, 255, 255);
-    background-color: rgb(12, 140, 190);
+    color:rgb(0, 0, 0);
 }
 .about-order{
     font-family: Arial;
@@ -50,18 +49,21 @@ body{
     height: 30px;
     /* margin-top: 5px; */
 }
-.product-row{
- border: 2px solid rgb(0, 0, 0);
+.row-car{
+ border: 1px solid rgb(204, 198, 198);
  border-radius: 10px;
  color: black;
  background-color: white;
+ margin-bottom: 10px;
 }
 .buttons{
     display: flex;
     gap:50px 
    
 }
-
+.footbar{
+    border-top: 1px solid rgb(134, 125, 125);
+}
 @media(min-width:800px){
     .name{
        margin-top: 60px;
