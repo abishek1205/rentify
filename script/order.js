@@ -48,8 +48,12 @@ order.forEach((item)=> {
 
     </div>
     <div class="buttons my-4">
-    <button class="btn btn-outline-primary w-25  ">Book</button>
+    <button class="btn btn-outline-primary w-25 " data-bs-toggle ="modal" data-bs-target="#modal${matchingItem.id}">Book</button>
     <button class="btn btn-outline-danger w-25 js-delete-button" data-product-id=${matchingItem.id} >Delete</button>
+    
+    
+    ${modal(matchingItem.id)}
+    </div>
     </div>
 </div>
 </div>
@@ -71,4 +75,33 @@ document.querySelectorAll(".js-delete-button").forEach((button)=>{
         
     })
 })
+function modal(productId){
+    let html;
+    products.forEach((product)=>{
+        if (product.id==productId){
+            console.log(product.image,"hi")
+            html+= `
+            <div class="modal fade image" id="modal${productId}">
+            <div class="modal-dialog ">
+            <div class ="modal-content">
+            <div class ="modal-header ">
+             <h1 class="text-success mx-5">Order Confirmed</h1>
+             <button class="btn btn-close btn-danger"  data-bs-toggle ="modal" data-bs-target="#modal${productId}"></button>
+        
+            </div>
+            <div class="modal-body ">
+            <img src= ${product.image} class="product-image m-3">
+            <h3 class="text-center  text-primary" >happy trip</h3>
+            </div>
+         
+            </div>
+            </div>
+            `
+            
+    
+        }
+        
+    })
+     return html
 
+}
